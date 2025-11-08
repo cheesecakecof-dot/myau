@@ -1,0 +1,192 @@
+/* Основные стили */
+body {
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f7f2;
+  /* Стили текста */
+}
+h1 {
+  color: #8b4513;
+  box-shadow: #190b02;
+  width: 40%;
+  text-align: center;
+  border-bottom: 2px solid #daa520;
+  padding-bottom: 10px;
+  border-radius: 0%;
+  font-family: "Playfair Display", serif;
+}
+h2 {
+  color: #8b4513;
+  box-shadow: #190b02;
+  width: 25%;
+  margin-top: 40px;
+  border-left: 4px solid #daa520;
+  padding-left: 10px;
+  font-family: "Playfair Display", serif;
+  border-radius: 0%;
+}
+.intro {
+  font-style: italic;
+  font-size: 1.1em;
+  text-align: justify;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+  background-color: #f5f5f5;
+  border-left: 4px solid #daa520;
+  padding: 10px 15px;
+  margin: 15px 0;
+  font-style: italic;
+}
+
+.key-work {
+  font-weight: bold;
+  color: #8b4513;
+}
+/* Стили списков */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.period {
+  margin-bottom: 40px;
+}
+/* Стили эпилога */
+.epilogue {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Стили навигации */
+.navigation {
+  text-align: center;
+  margin: 30px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #8b4513;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: backgroud 0.3s;
+}
+
+.nav-button:hover {
+  background: #daa520;
+}
+.image {
+  padding: auto;
+}
+body {
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f7f2;
+}
+
+h1 {
+  color: #8b4513;
+  text-align: center;
+  border-bottom: 2px solid #daa520;
+  padding-bottom: 10px;
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  color: #8b4513;
+  margin-top: 40px;
+  border-left: 4px solid #daa520;
+  padding-left: 10px;
+  font-family: "Playfair Display", serif;
+}
+.painting-img {
+  width: 100%;
+  height: auto;
+  background-color: #eee;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-style: italic;
+  color: #666;
+}
+.painting {
+  background: white;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  justify-content: space-around;
+}
+.navigation {
+  text-align: center;
+  margin: 30px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #8b4513;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.nav-button:hover {
+  background: #daa520;
+}
+
+.painting:hover {
+  transform: translateY(-5px);
+}
+
+.painting-title {
+  font-weight: bold;
+  color: #8b4513;
+  margin-bottom: 5px;
+}
+
+.painting-year {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.painting-description {
+  margin-top: 10px;
+  font-size: 0.95em;
+}
+
+.period-section {
+  margin-bottom: 50px;
+}
+
+.back-to-top {
+  text-align: center;
+  margin: 20px 0;
+}
